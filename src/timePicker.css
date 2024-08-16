@@ -1,0 +1,72 @@
+.time-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  transition: color 0.5s; /* Transition for hover effect */
+}
+
+.time-slot {
+  width: 70px;
+  font-size: 13px;
+  padding: 5px 0;
+  color: white; /* Main color for time slots */
+  background-color: #16DF9F;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 2s; /* Smooth transitions */
+}
+
+.time-slot.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.time-slot:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Disabled time slot style */
+.time-slot.disabled {
+  color: rgb(196, 189, 189); /* Disabled color */
+  background-color: grey; /* Disabled background */
+  cursor: not-allowed; /* Indicate that it's not clickable */
+}
+
+@media screen and (max-width: 1900px) {
+  .time-slots {
+    gap: 10px;
+    margin-top: 10px;
+    transition: color 0.5s; /* Transition for hover effect */
+  }
+  .time-slot {
+    width: 110px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .time-slots {
+    gap: 10px;
+    margin-top: 10px;
+    transition: color 0.5s; /* Transition for hover effect */
+  }
+  .time-slot {
+    width: 110px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .time-slots {
+    gap: 10px;
+    margin-top: 10px;
+    transition: color 0.5s; /* Transition for hover effect */
+  }
+  .time-slot {
+    width: 110px;
+    font-size: 15px;
+  }
+}

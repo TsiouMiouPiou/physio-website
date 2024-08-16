@@ -1,0 +1,470 @@
+/* MEDIA 1300px */
+
+@media screen and (max-width: 1900px) {
+
+  .nav-contain {
+  width: 1000px;
+  gap: 200px;
+  }
+  .container { 
+  width: 800px;
+  }
+  .name-container{
+  width: 300px;
+  }
+  .first-hr{
+  width: 730px;
+  } 
+  .name{
+  font-size: 25px;
+  }
+  .btn-appointment {
+  width: 200px;
+  font-size: 12px;
+  background-color: #DBE2F0;
+  cursor: pointer;
+  }
+  .physiotherapist{
+  width: 45%;
+  }
+  .title-description{
+  font-size: 12px;
+  max-width: 300px;
+  padding: 0px 0px 10px;
+  }
+  .btn-contact {
+  font-size: 10px;  
+  width: 130px;
+  height: 40px;
+  }
+  .logos{
+  width: 30px;
+  height: 30px;
+  }
+  .logos-container{
+  width: 500px;
+  }
+                    /* TRUSTED BY + LINES  */
+  .lines{
+  position: relative;
+  width: 900px;
+  margin: 50px auto;
+  }
+  .vr-line{
+  position: absolute;
+  top: -120px;
+  left: 70px;
+  height: 500px;
+  width: 1px;
+  /* border: 1px solid black; */
+  border: 1px solid rgb(144, 139, 139);
+  }
+  .hr-line{
+  border: 1px solid rgb(144, 139, 139);
+  max-width: 800px;
+  margin-top: 50px;
+  }
+  
+            /* Experienced in Multiple Physiotherapy specialities */
+  .experience{
+  position: relative;
+  bottom: 20px;
+  right: 100px;
+  font-size: 20px;
+  max-width: 500px;
+  font-weight: 600;
+  }
+  
+  .title-paragraphs{
+  max-width: 700px;
+  }
+  .title-paragraphs > p{
+  font-size: 12px;
+  width: 150px;
+  }
+  .p1{
+  margin-left: 20px;
+  }
+  .p3{
+  margin-right: 20px;
+  }
+  .treatment{
+  gap: 70px;
+  width: 650px;
+  }
+  .t1,.t2,.t3{
+  width: 180px;
+  height: 180px;
+  }
+  .therapy-title1,.therapy-title2,.therapy-title3{
+  margin-top: 20px;
+  font-size: 17px;
+  }
+  .therapy-title3{
+  margin-right: 50px;
+  }
+  .therapy-title2{
+  margin-right: 50px;
+  }
+  
+                  /* What our Patients say */
+  .h1-patients{
+  position: relative;
+  right: 100px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  }
+  .testimonials-container{
+  width: 800px;
+  }
+  .backticks{
+  position: absolute;
+  top: -50px;
+  bottom: 150px;
+  width: 40px;
+  }
+  .testi-content > p{
+  font-size: 12px;
+  width: 200px;
+  position: relative;
+  top: 50px;
+  right: 20px;
+  }
+  .patient-names{
+  position: relative;
+  font-size: 13px;
+  top: 55px;
+  right: 20px;
+  }
+  .testi-img{
+  width: 120px;
+  height: 100px;
+  }
+  .booking-container{
+  width: 800px;
+  }
+  }
+  
+      /* BOOK AN APOINTMENT BLOCK */
+  
+  
+                                          /* MEDIA 992px */
+  @media screen and (max-width: 992px) {
+  
+  .nav-contain {
+    width: 1000px;
+    gap: 0;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  .btn-appointment {
+    width: 150px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .first-hr {
+    width: 1000px; 
+  }
+  .name {
+    font-size: 18px;
+  }
+  .name-container{
+   position: relative;
+   left: 100px;
+    width: 200px;
+  }
+  .physiotherapist {
+    margin-bottom: 40px;
+    width: 290px; 
+  }
+  .title-description {
+    font-size: 10px;
+  }
+  .btn-contact {
+    font-size: 9px;  
+    width: 120px;
+    height: 30px;
+  }
+  .container {
+    width: 900px; 
+  }
+  .logos-container {
+    padding-top: 10px;
+  }
+  .trusted-logos-container{
+    width: 1000px;
+  }
+  .trusted {
+    font-size: 11px;
+  }
+  .logos {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* TRUSTED BY + LINES */
+  .vr-line {
+    left: 200px;
+    height: 450px;
+  }
+  
+  .hr-line {
+    border: 1px solid rgb(144, 139, 139);
+    width: 700px;
+    right: 100px;
+    margin-right: 0; /* Reset margin */
+  }
+  
+  /* Experienced in Multiple Physiotherapy specialities */
+  .experience {
+    width: 400px;
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+    font-size: 17px;
+  }
+  .treatment-container{
+    width: 950px;
+  }
+  .treatment {
+    position: relative;
+    left: 30px;
+    gap: 50px;
+    width: 500px;
+  }
+  
+  .title-paragraphs{
+    position: relative;
+    left: 60px;
+    width: 600px;
+  }
+  .title-paragraphs > p{
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  .t1, .t2, .t3 {
+    width: 150px;
+    height: auto;
+  }
+  
+  .therapy-title1, .therapy-title2, .therapy-title3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* What our Patients say */
+  .h1-patients {
+    position: relative;
+    left: 150px;
+    width: 900px;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .testimonials-patients-container{
+    width: 1000px;
+  }
+  .patient-names{
+    font-size: 20px;
+    left: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .testimonials-container {
+    width: 900px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+  }
+  .testi-content{
+    position: relative;
+    bottom: 20px;
+  }
+  .testi-content > p{
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  font-size: 18px;
+  width: 300px;
+  }
+  .testi-img {
+    width: 70%; 
+    height: auto; 
+  }
+  }
+  .booking-container{
+    width: 1000px;
+  }
+  .bar{
+  width: 1000px;
+  }
+  
+                                          /* 600 PIXELS */
+  @media screen and (max-width: 600px) {
+  .nav-contain {
+    width: 1000px; 
+    gap: 0px;
+  }
+  .btn-appointment {
+    width: 200px;
+    height: 35px;
+    font-size: 15px;
+  }
+  .first-hr {
+    width: 1000px; 
+  }
+  
+  .name {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .physiotherapist {
+    width: 400px;
+    margin: 25px auto;
+  }
+  
+  .title-description {
+    font-size: 10px;
+    text-align: center;
+    width: 90%;
+    
+  }
+  
+  .btn-contact {
+    font-size: 8px;  
+    width: 100px;
+    height: 28px;
+    position: relative;
+    left: 50px;
+  }
+  
+  .container {
+    flex-direction: column;
+    width: 950px; 
+  }
+  .name-container{
+    left: 10px;
+  }
+  
+  .logos-container {
+    flex-direction: row;
+    width: 950px; 
+    margin-top: 10px;
+    justify-content: center;
+  }
+  
+  .trusted {
+    width: 950px; 
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logos {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+  }
+  
+  /* TRUSTED BY + LINES */
+  .vr-line {
+    height: 400px;
+    left: 190px;
+  }
+  
+  .hr-line {
+    width: 600px; 
+    left: -160px;
+  }
+  
+  /* Experienced in Multiple Physiotherapy specialities */
+  .experience {
+    width: 1000px;
+    font-size: 20px;
+    left: 190px;
+    text-align: center;
+  }
+  .treatment-container{
+    width: 500px;
+  }
+  .treatment {
+    position: relative;
+    bottom: 20px;
+    left: 180px;
+    width: 600px;
+    gap: 50px;
+    margin: 20px auto;
+  }
+  
+  .title-paragraphs {
+    width: 600px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+    left: 200px;
+    gap: 20px;
+  }
+  .t1, .t2, .t3 {
+    width: 150px;
+    height: auto;
+  }
+  
+  .therapy-title1,.therapy-title2,.therapy-title3 {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  /* What our Patients say */
+  .h1-patients {
+  width: 500px;
+  position: relative;
+  left: 200px;
+  font-size: 22px;
+  text-align: center;
+  }
+  .testimonials-patients-container{
+    width: 500px;
+  }
+  .testimonials-container {
+  grid-template-columns: 1fr; /* Stack items vertically */
+  width: 500px;
+  gap: 50px;
+  position: relative;
+  left: 200px;
+  
+  }
+  .testi-content {
+  position: relative;
+  bottom: 50px;
+  left: 10px;
+  margin-bottom: 10px;
+  }
+  .testi-content > p{
+    font-size: 20px;
+  }
+  .patient-names{
+  position: relative;
+  left: 10px;
+  font-size: 20px;
+  }
+  .testi-img {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .booking-container{
+    width: 1000px;
+    position: relative;
+    left: 0px;
+  }
+  .bar {
+    width: 1000px;
+  }
+  }
+  

@@ -1,0 +1,257 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #DBE2F0;         
+          /* HEADER */
+}
+.logo {
+  font-size: 32px;
+  font-weight: 500;
+}
+.btn-appointment {
+  width: 250px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid hsl(0, 2%, 55%);
+  background-color: #DBE2F0;
+  cursor: pointer;
+}
+.btn-appointment:hover {
+  background-color: hsl(220, 41%, 80%);
+  transition: .5s ease;
+  transform: scale(0.95) !important;
+}
+.nav-contain {
+  display: flex;
+  gap: 700px;
+  align-items: center;
+  max-width: 1460px;
+}
+.physiotherapist{
+  width: 40%;
+}
+.first-hr{
+  max-width: 1230px;
+  border: .5px solid black
+}
+.name{
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+.name-line{
+  border: 0.5px solid rgb(59, 57, 57);
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.title-description{
+  font-size: 18px;
+  max-width: 500px;
+  padding: 10px 0 20px ;
+}
+.btn-contact {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 177px;
+  height: 48px;
+  background-color: #3367CC;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.btn-contact:hover{
+  background-color: hsl(220, 60%, 60%);
+  transform: rotate(10deg);
+}
+.name-container{
+  width: 500px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  max-width: 1400px;
+}
+.logos-container{
+  
+  padding: 0;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+                      /* TRUSTED BY + LINES  */
+.trusted{
+  padding-right: 5px;
+  font-weight: 500;
+  margin: 70px 0 0 0 ;
+  display: flex;
+  justify-content: center;
+}
+.lines{
+  position: relative;
+  max-width: 1400px;
+  margin: 50px auto;
+}
+.vr-line{
+  position: absolute;
+  top: -150px;
+  left: 70px;
+  height: 500px;
+  width: 1px;
+  /* border: 1px solid black; */
+  border: 1px solid rgb(144, 139, 139);
+}
+.hr-line{
+  position: relative;
+  right: 50px;
+  border: 1px solid rgb(144, 139, 139);
+  max-width: 1300px;
+  margin-top: 50px;
+}
+  /* MODAL */
+.Modal {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Overlay {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.experience{
+  position: relative;
+  right: 320px;
+  font-size: 36px;
+  font-weight: 500;
+  max-width: 500px;
+}
+.treatment{
+  width: 100px;
+  padding: 30px 0px 10px 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px
+}
+.t1,.t2,.t3{
+  width: 320px;
+}
+.title-paragraphs > h2{
+  font-weight: 500;
+}
+.title-paragraphs > p{
+  margin-top: -10px;
+  font-size: 16px;
+  width: 190px;
+  text-align: left;
+}
+.title-paragraphs{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  width: 1150px;
+  gap: 20px;
+}
+.p1{
+  margin-left: 60px;
+}
+.p3{
+  margin-right: 75px;
+}
+.grid{
+  display: flex;
+  max-width: 100%;
+  padding-top: 30px;
+}
+                  /* What our Patients say */
+.h1-patients{
+  position: relative;
+  right: 300px;
+  font-size: 36px;
+  font-weight: 500;
+  max-width: 500px;
+  padding-bottom: 40px;
+}
+.testimonials-container{
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backticks{
+  position: absolute;
+  bottom: 170px;
+}
+.testi-content > p{
+  width: 240px;
+  position: relative;
+  top: 70px;
+  right: 60px;
+}
+.patient-names{
+  position: relative;
+  top: 80px;
+  right: 60px;
+}
+.booking-container{
+  background-image: url("./assets/book.png");  
+  background-repeat: no-repeat;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  width: 1180px;
+  height: 600px;
+  border-radius: 20px;
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  font-size: 20px ;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 10px;
+  width: 30%;
+}
+.checkbox1,.checkbox2{
+  border-radius: 60%;
+  width: 40px;
+  height: 20px;
+}
+.bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #16DF9F;
+  height: 50px;
+  color: #FFFFFF;
+  width: 100%;
+}

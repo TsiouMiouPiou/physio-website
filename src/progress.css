@@ -1,0 +1,32 @@
+  .booking-btn > input{
+    font-size: 30px;
+  }
+  .progressNum1{
+    font-size: 30px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3367CC;
+    color: #FFFFFF;
+    border-radius: 100%;
+  }
+  .progressNum2, .progressNum3{
+    font-size: 30px;
+    color: #EE6CC2;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+  }
+  .progressBar1, .progressBar2{
+    width: 150px;
+    height: 1px;
+    border: 2px dotted rgb(255, 255, 255);
+  }
+  .progressBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

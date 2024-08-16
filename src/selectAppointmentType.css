@@ -1,0 +1,35 @@
+.check-availability{
+  position: relative;
+  left: 300px;
+  top: 15px;
+  width: 230px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #3367CC;
+  border: 1px solid black;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.check-availability:hover{
+  background-color: hsl(220, 60%, 55%);
+  animation: pulse .5s infinite ease-in-out alternate;
+}
+@keyframes pulse {
+  from { transform: scale(0.8);}
+  to { transform: scale(1);}
+}
+.input-app{
+ position: relative;
+ bottom: 60px;
+ left: 130px;
+}
+.input-app > p {
+  width: 60%;
+  margin-top: 20px;
+  position: relative;
+   right: 135px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+  

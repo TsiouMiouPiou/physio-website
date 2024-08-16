@@ -1,0 +1,73 @@
+.confirmation {
+    font-size: 18px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 220px;
+}
+.confirmation > h2{
+    color: #3367CC;
+    font-weight: 600;
+}
+.confirmation-p {
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+    font-size: 16px;
+    width: 500px;
+}
+.back-btn{
+    color: white;
+    cursor: pointer; 
+}
+.back-btn:hover{
+    animation: back .5s ease-in-out infinite alternate;
+}
+@keyframes back{
+    from { transform: translateX(0px);}
+    to { transform: translateX(-10px);}
+}
+.confirmation-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+    font-size: 16px;
+}
+.confirmation-book{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #3367CC;
+    color: white;
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+}
+.confirmation-book:hover{
+    animation: bounce .5s ease-in-out infinite alternate;
+
+}
+@keyframes bounce {
+    from { transform:scale(80%); }
+    to { transform: scale(100%); }
+
+}
+.address{
+    font-size: 14px;
+}
+.confirmation-email{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
