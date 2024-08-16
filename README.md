@@ -20,7 +20,6 @@ Before you begin, ensure you have the following installed on your local machine:
 
 1. **Clone the Repository**
 
-- 
 ```bash 
 git clone https://github.com/TsiouMiouPiou/physio-website.git 
 cd my-physio-app 
