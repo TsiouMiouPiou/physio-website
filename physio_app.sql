@@ -20,3 +20,6 @@ CREATE TABLE `appointments` (
   KEY `client_id` (`client_id`),
   CONSTRAINT `appointments_ibfk_1` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`)
 );
+
+SELECT * FROM clients;
+SELECT * FROM appintments;
