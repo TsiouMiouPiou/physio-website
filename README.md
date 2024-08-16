@@ -32,6 +32,10 @@ npm install
 ```
 
 3. **Open and edit the .env file to include your specific environment variables.**
+
+-Hotmail credentials are working perfectly as gmail needs 2 step verification and is not working at this current project.
+-The receiver can be either hotmail or gmail user.
+-The sender must be a hotmail user. 
  EXAMPLE:
  ```bash
 HOTMAIL_USER=yourhotmail@example.com
