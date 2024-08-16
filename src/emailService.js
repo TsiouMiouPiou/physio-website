@@ -3,20 +3,30 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const transporter = nodemailer.createTransport({
+const hotmailTransporter = nodemailer.createTransport({
   service: 'hotmail',
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
+    user: process.env.HOTMAIL_USER,
+    pass: process.env.HOTMAIL_PASS
   }
 });
 
-export const sendConfirmationEmail = async (recipientEmail, appointmentType, selectedDate, selectedTime) => {
+const gmailTransporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_PASS
+  }
+});
+
+export const sendConfirmationEmail = async (recipientEmail, appointmentType, selectedDate, selectedTime, useGmail = false) => {
+  const transporter = useGmail ? gmailTransporter : hotmailTransporter;
+
   const mailOptions = {
-    from: process.env.EMAIL_USER,
+    from: useGmail ? process.env.GMAIL_USER : process.env.HOTMAIL_USER,
     to: recipientEmail,
     subject: 'Appointment Confirmation',
-    text: `You have a ${appointmentType} appointment on ${selectedDate} at ${selectedTime}.`
+    text: `You have a ${appointmentType}  on ${selectedDate} at ${selectedTime}.`
   };
 
   try {
