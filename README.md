@@ -1,5 +1,8 @@
 # My Physio App
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 My Physio App is a full-stack application that allows users to book physiotherapy appointments online. It features a React-based front-end and an Express.js server as the back-end, with MySQL as the database to store client and appointment details. The project also includes an email confirmation feature using Nodemailer, supporting both Gmail and Hotmail email services.
 
 # Features
