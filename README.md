@@ -13,7 +13,6 @@ My Physio App is a full-stack application that allows users to book physiotherap
 # Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
 
-- VS Code
 - Node.js (v14 or higher)
 - npm (v6 or higher)
 - MySQL Server
@@ -80,7 +79,7 @@ npm run dev
 # Troubleshooting
 - Common Errors
 - Database Connection Issues: Ensure your MySQL server is running and the credentials in your .env file are correct.
-- Email Sending Errors: Verify that you've set up the correct email credentials and enabled "Less secure app access" in your Gmail account or generated an app-specific password.
+- Email Sending Errors: Verify that you've set up the correct hotmail credentials.
 
 # License
 - This project is licensed under the MIT License.

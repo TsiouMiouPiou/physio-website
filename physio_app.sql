@@ -22,4 +22,4 @@ CREATE TABLE `appointments` (
 );
 
 SELECT * FROM clients;
-SELECT * FROM appintments;
+SELECT * FROM appointments;
