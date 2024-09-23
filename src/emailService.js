@@ -13,15 +13,16 @@ const transporter = nodemailer.createTransport({
 
 export const sendConfirmationEmail = async (recipientEmail, appointmentType, selectedDate, selectedTime) => {
   const mailOptions = {
-    from: process.env.EMAIL_USER,
+    from: process.env.HOTMAIL_USER,
     to: recipientEmail,
     subject: 'Appointment Confirmation',
-    text: `You have a ${appointmentType} appointment on ${selectedDate} at ${selectedTime}.`
+    text: `You have a ${appointmentType} on ${selectedDate} at ${selectedTime}.`
   };
 
   try {
     const info = await transporter.sendMail(mailOptions);
     console.log('Email sent: ' + info.response);
+    console.log('Email sent to: ' + recipientEmail);
     return info;
   } 
   catch (error) {

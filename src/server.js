@@ -19,10 +19,6 @@ app.use(express.json());
 app.use(cors());
 app.use(bodyParser.json()); // Middleware to parse JSON bodies
 
-// Test route
-app.get("/", (req, res) => {
-  res.json("hello");
-});
 
 // Get all appointments
 app.get("/appointments", (req, res) => {
