@@ -1,11 +1,13 @@
+create database physio_app;
+use physio_app;
+
 CREATE TABLE `clients` (
   `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `phone` varchar(15) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `email` (`email`)
+  PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `appointments` (
@@ -20,6 +22,9 @@ CREATE TABLE `appointments` (
   KEY `client_id` (`client_id`),
   CONSTRAINT `appointments_ibfk_1` FOREIGN KEY (`client_id`) REFERENCES `clients` (`id`)
 );
+-- In case of authentication problem use the following command
+-- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YOUR PASSWORD';
+
 
 SELECT * FROM clients;
 SELECT * FROM appointments;

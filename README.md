@@ -28,16 +28,15 @@ cd my-physio-app
 ```
 
 2. **Install Dependencies**
-Install the required dependencies using npm:
 ```bash
 npm install
 ```
 
 3. **Open and edit the .env file to include your specific environment variables.**
 
--Hotmail credentials are working perfectly as gmail needs 2 step verification and is not working at this current project.
--The receiver can be either hotmail or gmail user.
--The sender must be a hotmail user. 
+- Hotmail credentials are working perfectly as gmail needs 2 step verification and is not working at this current project.
+- The receiver can be either hotmail or gmail user.
+- The sender must be a hotmail user. 
  EXAMPLE:
  ```bash
 HOTMAIL_USER=yourhotmail@example.com
@@ -51,13 +50,9 @@ DB_PASSWORD=your-database-passwordDB_NAME=your-database-name
 4. **Setup the MySQL Database**
 - Using MySQL Workbench
 - Open MySQL Workbench and connect to your MySQL server.
-- Create a new schema (database) named physio_app:
-- Click on the "Create a new schema in the connected server" icon (under Query tab).
-- Name the schema physio_app.
-- Open the physio_app.sql file from your VS CODE.
-- Copy the SQL script from physio_app.sql file.
-- Paste & Run the SQL script to create the necessary tables:
-- Execute the script by pressing the "lightning bolt" icon to create the tables.
+- On the Navigator section, select the 2nd tab "Open a new SQL file in a new query tab".
+- Open 'physio_app.sql' file.
+- Execute the commands by pressing the thunderbolt button.  
 
 5. **Run the Application**
 - Start the server using npm:
@@ -75,6 +70,8 @@ npm run dev
 - Enter your name, email, and phone number.
 - Click on the "Confirm" button to book the appointment.
 - You will receive an email confirmation shortly.
+- Check your emails.
+- Check the updated database.
 
 # Troubleshooting
 - Common Errors
