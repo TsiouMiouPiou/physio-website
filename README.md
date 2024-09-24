@@ -44,7 +44,8 @@ HOTMAIL_PASS=your-hotmail-password
 
 DB_HOST=your-database-host
 DB_USER=your-database-username
-DB_PASSWORD=your-database-passwordDB_NAME=your-database-name
+DB_PASSWORD=your-database-password
+DB_NAME=your-database-name
 ```
 
 4. **Setup the MySQL Database**
